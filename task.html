@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .grid{
+    display: grid;
+    grid-template-columns: 10% 250px 75px 103px  ;
+    column-gap: 16px;
+    row-gap: 16px;
+   
+    
+   }
+   
+
+    .grid1{
+        background-color: blue;
+        height: 85px;
+    }
+    .grid2{
+        background-color: brown;
+    }
+    .grid3{
+        background-color: chartreuse;
+        
+    }
+    .grid4{
+        background-color: darkmagenta;
+        grid-row-start: span 11;
+        
+       
+    }
+    .grid5{
+        background-color: black;
+        color: #fff;
+        grid-row-start: span 10;
+    }
+    .grid6{
+        background-color: darksalmon;
+        grid-column-start: span 2;
+        grid-row-start:span 10 ;
+    }
+</style>
+<body>
+   <div class="grid">
+    <div class="grid1"> 1</div>
+    <div class="grid2">2</div>
+    <div  class="grid3" >  3</div>
+    <div class="grid4"  >4</div>
+    <div class="grid5" >5</div>
+    <div class="grid6" >6</div>
+
+   </div>
+</body>
+</html>
